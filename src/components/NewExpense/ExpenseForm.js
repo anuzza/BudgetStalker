@@ -77,7 +77,14 @@ const[enteredDate, setEnteredDate] = useState('');
                     min = "2022-01-01" max = "2022-12-31" onChange={dateChangeHandler}/>
                 </div>
                 <div className="new-expense__actions">
+
+                    <button type = 'button' onClick={props.stopEditing}>Cancel</button>
+
                     <button type = "submit">Add Expense</button>
+
+                    
+                    
+                    
 
                 </div>
 
